@@ -1,6 +1,6 @@
 #!/usr/bin/env python
  
-from distutils.core import setup
+from setuptools import setup
  
 setup(name='brubeck',
       version='0.3.9',
@@ -9,7 +9,7 @@ setup(name='brubeck',
       author_email='jdennis@gmail.com',
       url='http://github.com/j2labs/brubeck',
       packages=['brubeck'],
-      requires=[
+      install_requires=[
         'ujson',
         'dictshield',
       ],)
